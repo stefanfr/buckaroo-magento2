@@ -40,6 +40,6 @@
 <div id="buckaroo-fee-cart" data-bind="scope:'buckarooFeeCart'">
     <!-- ko template: getTemplate() --><!-- /ko -->
     <script>
-        window.buckarooConfig = <?php /* @escapeNotVerified */ echo $block->escapeHtml($block->getBuckarooConfigJson()); ?>;
+        window.buckarooConfig = <?php /* @escapeNotVerified */ echo $block->getBuckarooConfigJson(); ?>;
     </script>
 </div>
